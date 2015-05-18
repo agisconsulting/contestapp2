@@ -9,9 +9,9 @@ gem "pg"
 end
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-group :development, :test do
 gem 'pg'
+group :development, :test do
+gem "pg"
 end
 
 # Use SCSS for stylesheets
